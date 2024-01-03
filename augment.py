@@ -162,7 +162,7 @@ def apply_augmentations(image):
 
 
 # Set the path to the 'data_aug' folder
-data_aug_folder = 'C:\\Users\\krish\\Downloads\\flowers_dataset\\data_aug'
+data_aug_folder = 'Data_Aud_Directory_path'
 
 # Iterate through the 'data_aug' folder and augment the existing images
 for folder in os.listdir(data_aug_folder):
